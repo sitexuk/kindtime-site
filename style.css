@@ -148,3 +148,8 @@ footer a { color: var(--muted); }
   .sun { width: 140px; height: 140px; left: 2%; top: 50%; }
   footer nav { margin-left: 0; }
 }
+
+/* Apple's official App Store badge (served by Apple's marketing tools) */
+.badge { display: inline-block; line-height: 0; }
+.badge img { width: 150px; height: 50px; }
+.badge:hover { text-decoration: none; opacity: .9; }
